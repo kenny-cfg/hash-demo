@@ -1,0 +1,2 @@
+class PasswordStore:
+    pass
