@@ -9,8 +9,10 @@ class TestMySet(unittest.TestCase):
         set.put('Hello')
 
         result = set.has('Hello')
+        false_result = set.has('Goodbye')
 
         self.assertTrue(result)
+        self.assertFalse(false_result)
 
 
 if __name__ == '__main__':
