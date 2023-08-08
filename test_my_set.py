@@ -8,6 +8,10 @@ class TestMySet(unittest.TestCase):
         set = MySet()
         set.put('Hello')
 
+        result = set.has('Hello')
+
+        self.assertTrue(result)
+
 
 if __name__ == '__main__':
     unittest.main()
